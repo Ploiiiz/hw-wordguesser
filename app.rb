@@ -51,6 +51,7 @@ class WordGuesserApp < Sinatra::Base
   get '/show' do
     ### YOUR CODE HERE ###
     erb :show # You may change/remove this line
+    
   end
   
   get '/win' do
